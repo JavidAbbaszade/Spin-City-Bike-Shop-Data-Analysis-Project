@@ -43,10 +43,10 @@ ON a.yr = b.yr;
 Visualizations were created in Power BI to highlight trends and insights.
 
 **2021 Dashboard:**
-
+![img](https://raw.githubusercontent.com/JavidAbbaszade/Spin-City-Bike-Shop-Data-Analysis-Project/refs/heads/main/2021.JPG)
 
 **2022 Dashboard:**
-
+![img](https://raw.githubusercontent.com/JavidAbbaszade/Spin-City-Bike-Shop-Data-Analysis-Project/refs/heads/main/2022.JPG)
 
 ## Analysis and Insights
 **Revenue Growth:** Revenue increased significantly in 2022 compared to 2021, driven by more riders and higher prices.
