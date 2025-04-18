@@ -37,7 +37,7 @@ SELECT
     riders * price - COGS * riders AS profit
 FROM cte a
 LEFT JOIN cost_table b
-ON a.yr = b.yr;
+ON a.yr = b.yr;```
 Power BI Dashboard
 Visualizations were created in Power BI to highlight trends and insights.
 
