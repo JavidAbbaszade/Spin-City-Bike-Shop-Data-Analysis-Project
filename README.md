@@ -39,8 +39,12 @@ FROM cte a
 LEFT JOIN cost_table b
 ON a.yr = b.yr;
 Power BI Dashboard
-Visualizations were created in Power BI to present key trends and insights.
+Visualizations were created in Power BI to highlight trends and insights.
 
+2021 Dashboard:
+
+
+2022 Dashboard:
 
 
 Analysis and Insights
@@ -51,35 +55,22 @@ Profit Margins: Profit margins also improved. However, caution is advised with f
 Seasonality: Revenue and profit vary significantly by season, with peaks during warmer months.
 
 Recommendations
-A 10–15% price increase is suggested to test the market without risking significant loss of demand.
+Consider a 10–15% price increase to test market response.
 
-Consider segmented pricing for casual vs. registered riders.
+Use segmented pricing strategies for casual vs. registered riders.
 
-Continue monitoring customer behavior and adjust pricing based on feedback and new sales data.
+Monitor customer behavior and adjust pricing as needed.
 
-Conduct further market research to support long-term pricing strategy.
+Conduct additional market research to support long-term strategy.
 
 How to Run the Project
 Download the dataset files: bike_share_yr_0.csv, bike_share_yr_1.csv, and cost_table.csv.
 
 Import them into a SQL database (e.g., SQL Server).
 
-Run the provided SQL query to calculate revenue and profit.
+Run the provided SQL query to generate revenue and profit metrics.
 
-Import the results into Power BI to build dashboards and visualizations.
+Load the output into Power BI and build dashboards.
 
 License
 This project is licensed under the MIT License.
-
-yaml
-Copy
-Edit
-
----
-
-🟢 **What to Do Now:**
-1. Open your `README.md` file in GitHub or VS Code.
-2. Paste the clean markdown version above.
-3. Make sure your JPEG screenshots are named `2021.jpeg` and `2022.jpeg` and are uploaded in the same directory as your README.
-
-You're done! Clean, complete, and professional. Want me to save it as a file you can just upload?
