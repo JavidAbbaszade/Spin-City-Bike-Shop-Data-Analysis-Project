@@ -39,23 +39,23 @@ FROM cte a
 LEFT JOIN cost_table b
 ON a.yr = b.yr;
 ```
-Power BI Dashboard
+## Power BI Dashboard
 Visualizations were created in Power BI to highlight trends and insights.
 
-2021 Dashboard:
+**2021 Dashboard:**
 
 
-2022 Dashboard:
+**2022 Dashboard:**
 
 
-Analysis and Insights
-Revenue Growth: Revenue increased significantly in 2022 compared to 2021, driven by more riders and higher prices.
+## Analysis and Insights
+**Revenue Growth:** Revenue increased significantly in 2022 compared to 2021, driven by more riders and higher prices.
 
-Profit Margins: Profit margins also improved. However, caution is advised with further price increases to avoid reduced customer demand.
+**Profit Margins:** Profit margins also improved. However, caution is advised with further price increases to avoid reduced customer demand.
 
-Seasonality: Revenue and profit vary significantly by season, with peaks during warmer months.
+**Seasonality:** Revenue and profit vary significantly by season, with peaks during warmer months.
 
-Recommendations
+## Recommendations
 Consider a 10–15% price increase to test market response.
 
 Use segmented pricing strategies for casual vs. registered riders.
@@ -64,7 +64,7 @@ Monitor customer behavior and adjust pricing as needed.
 
 Conduct additional market research to support long-term strategy.
 
-How to Run the Project
+## How to Run the Project
 Download the dataset files: bike_share_yr_0.csv, bike_share_yr_1.csv, and cost_table.csv.
 
 Import them into a SQL database (e.g., SQL Server).
@@ -72,6 +72,3 @@ Import them into a SQL database (e.g., SQL Server).
 Run the provided SQL query to generate revenue and profit metrics.
 
 Load the output into Power BI and build dashboards.
-
-License
-This project is licensed under the MIT License.
