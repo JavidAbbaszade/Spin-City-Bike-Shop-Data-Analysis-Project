@@ -48,21 +48,54 @@ Visualizations were created in Power BI to highlight trends and insights.
 **2022 Dashboard:**
 ![img](https://raw.githubusercontent.com/JavidAbbaszade/Spin-City-Bike-Shop-Data-Analysis-Project/refs/heads/main/2022.JPG)
 
-## Analysis and Insights
-**Revenue Growth:** Revenue increased significantly in 2022 compared to 2021, driven by more riders and higher prices.
+# Data Analysis: Pricing Strategy Recommendation
 
-**Profit Margins:** Profit margins also improved. However, caution is advised with further price increases to avoid reduced customer demand.
+This repository provides a detailed analysis and recommendation for adjusting the pricing strategy based on last year's price increase and market behavior. The goal is to determine a conservative pricing increase that optimizes revenue without losing customers.
 
-**Seasonality:** Revenue and profit vary significantly by season, with peaks during warmer months.
+## Problem Overview
 
-## Recommendations
-Consider a 10–15% price increase to test market response.
+Given the substantial price increase last year, we need to assess the potential impact of a more conservative price increase. This analysis aims to test the market's response to a 10-15% price adjustment and how different strategies might affect demand.
 
-Use segmented pricing strategies for casual vs. registered riders.
+## Pricing Increase Strategy
 
-Monitor customer behavior and adjust pricing as needed.
+### Conservative Price Increase:
+- A more conservative price increase is suggested to prevent demand from dropping due to price sensitivity.
+- **Recommended Increase**: A 10-15% increase on the current price of $4.99.
 
-Conduct additional market research to support long-term strategy.
+### Price Projections:
+- **10% Increase**:  
+  New Price: $5.49  
+  Formula: `4.99 * (1 + 0.10)`
+  
+- **15% Increase**:  
+  New Price: $5.74  
+  Formula: `4.99 * (1 + 0.15)`
+
+## Recommended Strategy
+
+### 1. Market Analysis:
+- **Objective**: Conduct further market research to understand customer satisfaction, potential competitive changes, and the economic environment.
+- **Outcome**: This will help guide whether to lean towards the lower or higher end of the price increase range.
+
+### 2. Segmented Pricing Strategy:
+- **Strategy**: Consider applying different pricing for casual users vs. registered users.
+  - Registered users may have lower price sensitivity and could be charged higher.
+  - Casual users may be more sensitive to price changes and could benefit from a lower price increase.
+
+### 3. Monitor and Adjust:
+- **Implementation**: After applying the new prices, it is essential to monitor customer feedback and sales data closely.
+- **Outcome**: This will help fine-tune the pricing strategy and allow for adjustments if the new price turns out to be too high or low.
+
+## Conclusion
+
+This recommendation proposes a gradual and conservative price increase strategy while ensuring close monitoring and adaptability to customer response. This approach balances revenue optimization with customer retention, leveraging market research and segmented pricing to tailor the price changes effectively.
+
+## Next Steps
+
+1. Conduct market research to validate assumptions about customer behavior and competitive changes.
+2. Implement the new pricing structure.
+3. Monitor the response and sales data to adjust as needed.
+
 
 ## How to Run the Project
 Download the dataset files: bike_share_yr_0.csv, bike_share_yr_1.csv, and cost_table.csv.
